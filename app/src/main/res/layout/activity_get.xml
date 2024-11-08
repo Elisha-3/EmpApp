@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DFBB81"
+    tools:context=".GetActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET EMPLOYEE"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/shape"
+        android:padding="15dp"/>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#ffffff"-->
+<!--        android:hint="Enter Employee ID"-->
+<!--        android:inputType="number"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_margin="10dp"/>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#ffffff"-->
+<!--        android:hint="Enter Employee first name"-->
+<!--        android:inputType="number"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_margin="10dp"/>-->
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Sports"/>
+    <Button
+        android:id="@+id/entertainment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Entertainment"/>
+
+    <Button
+        android:id="@+id/business"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Business"/>
+
+    <Button
+        android:id="@+id/education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="Education"/>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#5BB2E6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee Management"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@drawable/shape"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POST EMPLOYEE"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GET EMPLOYEE"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/put"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PUT EMPLOYEE"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE EMPLOYEE"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>
