@@ -18,6 +18,30 @@
         android:background="@drawable/shape"
         android:padding="15dp"/>
 
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="20sp"
+                android:id="@+id/empdata"/>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
 <!--    <EditText-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="wrap_content"-->
@@ -36,44 +60,7 @@
 <!--        android:padding="10dp"-->
 <!--        android:layout_margin="10dp"/>-->
 
-    <Button
-        android:id="@+id/sports"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="#ffffff"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:text="Sports"/>
-    <Button
-        android:id="@+id/entertainment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="#ffffff"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:text="Entertainment"/>
 
-    <Button
-        android:id="@+id/business"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="#ffffff"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:text="Business"/>
-
-    <Button
-        android:id="@+id/education"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:background="#ffffff"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:text="Education"/>
 
 
 </LinearLayout>

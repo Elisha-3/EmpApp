@@ -18,16 +18,17 @@
         android:background="@drawable/shape"
         android:padding="15dp"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#ffffff"
-        android:hint="Employee ID"
-        android:inputType="number"
-        android:padding="10dp"
-        android:layout_margin="10dp"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#ffffff"-->
+<!--        android:hint="Employee ID"-->
+<!--        android:inputType="number"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_margin="10dp"/>-->
 
     <EditText
+        android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
@@ -36,6 +37,7 @@
         android:padding="10dp"
         android:layout_margin="10dp"/>
     <EditText
+        android:id="@+id/others"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
@@ -45,6 +47,7 @@
         android:layout_margin="10dp"/>
 
     <EditText
+        android:id="@+id/salary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
@@ -54,6 +57,7 @@
         android:layout_margin="10dp"/>
 
     <EditText
+        android:id="@+id/department"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
@@ -63,6 +67,7 @@
         android:layout_margin="10dp"/>
 
     <Button
+        android:id="@+id/btnsave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
