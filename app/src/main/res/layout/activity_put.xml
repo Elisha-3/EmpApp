@@ -19,6 +19,7 @@
         android:padding="15dp"/>
 
     <EditText
+        android:id="@+id/empid"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
@@ -28,15 +29,17 @@
         android:layout_margin="10dp"/>
 
     <EditText
+        android:id="@+id/empname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"
         android:hint="Employee first name"
-        android:inputType="number"
+        android:inputType="textPersonName"
         android:padding="10dp"
         android:layout_margin="10dp"/>
 
     <Button
+        android:id="@+id/update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#ffffff"

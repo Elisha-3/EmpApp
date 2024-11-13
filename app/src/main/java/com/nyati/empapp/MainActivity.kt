@@ -42,6 +42,8 @@ class MainActivity : AppCompatActivity() {
         val btndelete = findViewById<Button>(R.id.delete)
         btndelete.setOnClickListener {
             Toast.makeText(applicationContext, "DELETE EMPLOYEE BUTTON", Toast.LENGTH_SHORT).show()
+            val  intent= Intent(applicationContext, DeleteActivity::class.java)
+            startActivity(intent)
 
         }
 
